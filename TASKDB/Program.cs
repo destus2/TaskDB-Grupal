@@ -13,10 +13,10 @@ namespace TaskDB
                 "DataDirectory",
                 AppDomain.CurrentDomain.BaseDirectory
             );
-
-            Application.EnableVisualStyles();
+          
+Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmAgregarTarea());
+            Application.Run(new FrmListadoTareas());
         }
     }
 }

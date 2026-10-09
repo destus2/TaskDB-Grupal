@@ -83,8 +83,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmAgregarTarea.resx">
-      <DependentUpon>FrmAgregarTarea.cs</DependentUpon>
+<EmbeddedResource Include="FrmAgregarTarea.resx">
+        <DependentUpon>FrmAgregarTarea.cs</DependentUpon>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FrmListadoTareas.resx">
+        <DependentUpon>FrmListadoTareas.cs</DependentUpon>
+      </EmbeddedResource>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
